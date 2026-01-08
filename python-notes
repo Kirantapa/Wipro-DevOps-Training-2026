@@ -303,7 +303,73 @@ print(numbers[1:3])
 print(numbers[2:])
 print(numbers[1:4])
 
+    8. Set
+======
+
+    Ø A set in python is an unordered collections of unique elements 
+    Ø Stores only unique values
+    Ø No duplicate elements 
+    Ø Unordered 
+    Ø Mutable :- can add/remove items
+
+Why it is?
+=======
+
+    Ø We want to remove duplicates 
+    Ø We don't care about order
+    Ø We need fast membership checking
+    Ø We want mathematical operations 
+
+Characteristics of set
+===============
+
+    Ø No ordered
+    Ø No index
+    Ø won't allow  duplicate items
+    Ø Mutable 
+    Ø Support math oprts
 
 
+numbers = (10, 20, 30, 40, 50)
+print(numbers[1:3])
+print(numbers[2:])
+print(numbers[1:4])
 
-	
+
+    9. Dictionary 
+===========
+
+Key-value pair?
+===========
+
+"Name": "murali"
+
+    Ø It will store a collection of data stored as key-value pairs
+
+
+Why it is?
+=======
+
+    Ø Data has a meaningful relationship 
+    Ø We want fast lookup using keys
+    Ø Data looks like json
+    Ø We want to store structured info
+
+
+Characteristics 
+===========
+
+    Ø Data structure:- key -value pair
+    Ø Ordered 
+    Ø Mutable 
+    Ø Keys unique
+    Ø Allows Values duplicate
+
+
+employee = {
+    "name": "murali",
+    "role": "DevOps Trainer",
+    "salary": 50000,
+    "name": "clahan"
+}
+print(employee)
