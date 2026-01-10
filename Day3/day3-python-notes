@@ -314,3 +314,116 @@ print(text.find("a"))
 
 fruit = "banana"
 print(fruit.count("a"))
+
+Dictionary built-in methods 
+====================
+
+	1. Get()
+========
+	Ø To fetch a value safely
+
+
+student = {"name": "murali", "age": 29}
+print(student.get("name"))
+print(student.get("age"))
+print(student.get("course"))
+
+
+	2. Keys()
+=========
+
+	Ø To get all keys
+
+student = {"name": "murali", "age": 29}
+print(student.get("name"))
+print(student.get("age"))
+print(student.get("course"))
+print(student.keys())
+
+	3. Values()
+==========
+	Ø To get all values
+
+	4. Items()
+=========
+
+	Ø To get key-value pairs 
+
+student = {"name": "murali", "age": 29}
+print(student.get("name"))
+print(student.get("age"))
+print(student.get("course"))
+print(student.keys())
+print(student.values())
+print(student.items())
+
+
+	5. Update()
+==========
+
+	Ø To add or modify data
+
+student = {"name": "murali", "age": 29}
+student.update({"course": "DevOps"})
+print(student.get("name"))
+print(student.get("age"))
+print(student.get("course"))
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student)
+
+	6. Pop()
+=======
+
+	Ø To remove item using key
+
+
+student = {"name": "murali", "age": 29}
+student.update({"course": "DevOps"})
+student.pop("age")
+print(student.get("name"))
+print(student.get("age"))
+print(student.get("course"))
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student)
+print(student)
+
+	7. Popitem()
+===========
+	Ø To remove last inserted item
+
+
+
+student = {"name": "murali", "age": 29}
+student.update({"course": "DevOps"})
+student.pop("age")
+student.popitem()
+print(student.get("name"))
+print(student.get("age"))
+print(student.get("course"))
+print(student.keys())
+print(student.values())
+print(student.items())
+print(student)
+print(student)
+print(student)
+
+
+	8. Clear()
+=========
+	Ø To remove all data
+
+student = {"name": "murali", "age": 29}
+student.clear()
+print(student)
+
+	9. Setdefault()
+============
+	Ø To get value, insert if not present
+
+student = {"name": "murali"}
+student.setdefault("course", "DevOps")
+print(student)
