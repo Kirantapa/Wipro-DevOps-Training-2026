@@ -66,3 +66,37 @@
    70  rm -rf wipro-devops-training/
    71  ls
    72  history
+       4  ls
+    5  mkdir ipl
+    6  ls
+    7  touch index.html
+    8  ls
+    9  touch login.html
+   10  ls
+   11  mv ipl BCCI
+   12  ls
+   13  cd BCCI/
+   14  ls
+   15  cd ..
+   16  ls
+   17  cp index.html BCCI/
+   18  ls
+   19  cd BCCI/
+   20  ls
+   21  mv index.html ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  mv login.html BCCI/
+   26  ls
+   27  cd BCCI/
+   28  ls
+   29  mv login.html ..
+   30  ls
+   31  cd ..
+   32  ls
+   33  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.115/bin/apache-tomcat-9.0.115.exe
+   34  ls
+   35  ping www.goolge.com
+   36  ping www.amazon.com
+   37  history
