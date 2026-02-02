@@ -21,3 +21,26 @@
   22 git branch
   23 git push
   24 git status
+    26 git status
+  27 git add .
+  28 git status
+  29 git reset .\signup.html
+  30 git status
+  31 git add .
+  32 git status
+  33 git status
+  34 git add .
+  35 git status
+  36 git reset .\index.html
+  37 git status
+  38 git add .
+  39 git status
+  40 git commit -m "added two files"
+  41 git status
+  42 git log
+  43 git revert b7e3d40b13d2a517cf97c8b83d2a8fc350911a3d
+  44 ls
+  45 git log
+  46 git revert 776afc73e719f79d592f74b2602a93d7a3753139
+  47 ls
+  48 git status
