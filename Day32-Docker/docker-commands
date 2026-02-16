@@ -1,0 +1,54 @@
+
+# commanads
+
+    1  apt update -y
+    2  docker
+    3  docker --version
+    4  apt  install docker.io  -y
+    5  docker --version
+    6  java
+    7  git clone https://github.com/Msocial123/Fitness_Tracker.git
+    8  ls
+    9  cd Fitness_Tracker/
+   10  ls
+   11  docker build -t fitness-app:v1.0.0 .
+   12  docker images
+   13  docker tag fitness-app:v1.0.0 muralisocial123/fitness-app:v1.0.0
+   14  docker images
+   15  docker login
+   16  docker login -u muralisocial123
+   17  docker images
+   18  docker push muralisocial123/fitness-app:v1.0.0
+   19  docker build -t fitness-app:v1.0.1 .
+   20  docker images
+   21  docker tag fitness-app:v1.0.1 muralisocial123/fitness-app:v1.0.1
+   22  docker images
+   23  docker push muralisocial123/fitness-app:v1.0.1
+
+   # bridge network commands
+      39  docker network ls
+   40  docker inspect network bridge
+   41  docker inspect fitness
+   42  docker ps
+   43  docker network ls
+   44  docker create network murali-bridge
+   45  docker network create murali-bridge
+   46  docker network ls
+   47  docker inspect murali-bridge
+   48  ls
+   49  docker run -dit --name app1 --network murali-bridge nginx
+   50  docker ps
+   51  docker network ls
+   52  docker inspect network murali-bridge
+   53  docker inspect app1
+   54  ls
+   55  docker run -dit --name app2 --network murali-bridge ubuntu
+   56  docker ps
+   57  docker inspect network murali-bridge
+   58  docker ps
+   59  docker exec -it app1 bash
+   60  docker exec -it app2 bash
+
+# to install ping software
+
+apt update && apt install iputils-ping -y
