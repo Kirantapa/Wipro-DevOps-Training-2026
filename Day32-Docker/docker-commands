@@ -82,3 +82,41 @@ apt update && apt install iputils-ping -y
    93  docker inspect network none
    94  docker ps
    95  docker exec -it web1 bash
+
+   # compose commands
+
+     133  cat docker-compose.yml
+  134  cat Dockerfile
+  135  ls
+  136  > Dockerfile
+  137  cat Dockerfile
+  138  ls
+  139  vi Dockerfile
+  140  ls
+  141  cat Dockerfile
+  142  ls
+  143  docker build -t trnasaction-app:v1 .
+  144  docker images
+  145  docker run -d --name transaction -p 3000:3000 trnasaction-app:v1
+  146  docker ps
+  147  docker exec -it transaction bash
+  148  docker rm -f transaction
+  149  docker rmi trnasaction-app:v1
+  150  ls
+  151  cat docker-compose.yml
+  152  ls
+  153  vi docker-compose.yml
+  154  ls
+  155  cat docker-compose.yml
+  156  docker images
+  157  docker ps -a
+  158  ls
+  159  docker network ls
+  160  ls
+  161  docker-compose up -d
+  162  docker ps
+  163  docker images
+  164  docker network ls
+  165  docker inspect network transaction-history_default
+  166  ls
+  167  docker exec -it mongodb mongosh
