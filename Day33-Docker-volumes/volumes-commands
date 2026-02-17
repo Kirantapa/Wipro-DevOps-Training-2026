@@ -1,0 +1,27 @@
+   42  docker pull muralisocial123/ipl:latest
+   43  docker images
+   44  ls
+   45  docker run -it --name ipl -v /murali -p 3000:3000 muralisocial123/ipl:latest /bin/bash
+   46  docker ps
+   47  docker ps -a
+   48  docker volume ls
+   49  docker volume inspect d917af9c4909a847494db011a0422b0581e1464d3e452d9e06cde9659774e2c9
+   50  cd /var/lib/docker/volumes/
+   51  ls
+   52  cd d917af9c4909a847494db011a0422b0581e1464d3e452d9e06cde9659774e2c9
+   53  ls
+   54  cd _data/
+   55  ls
+   56  exit
+   57  docker ps -a
+   58  docker rm ipl
+   59  docker ps -a
+   60  docker volume ls
+   61  cd /var/lib/docker/volumes/
+   62  ls
+   63  cd d917af9c4909a847494db011a0422b0581e1464d3e452d9e06cde9659774e2c9
+   64  ls
+   65  cd _data/
+   66  ls
+   67  exit
+   68  history

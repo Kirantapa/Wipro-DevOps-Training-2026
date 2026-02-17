@@ -1,0 +1,49 @@
+Docker Volumes
+============
+
+Why?
+=====
+
+Ø To persist app data
+Ø Containers are ephemeral (temporary)
+Ø If container crashes or recreated you may lose app data
+Ø A container does not have its own disk
+
+Wt?
+===
+
+Ø Volume is nothing but it is an external storage managed by docker to persist app data.
+Ø Volume is nothing but a directory 
+Ø You are going to be declaring a directory as a volume is called volume.
+Ø One volume you can share with another container.
+Ø If you delete the container volume will not be deleted.
+
+
+Container = application 
+Volume = hard disk
+
+Docker file system:- 
+
+Ø Docker builds a file system using layers
+
+Ø While building docker images docker forms layers  - read only 
+Ø While creating container docker will add or create a writable layer  - top layer
+Ø These two kind  of layers are called file system 
+Ø If you delete container automatically file system will be deleted - if you delete file system automatically data will be deleted , this is why containers are ephemeral 
+Ø Volumes are going to creating out of the file system
+Ø Docker volumes are store app data in volumes mount location or path
+
+
+
+Volume types 
+===========
+
+	1. Anonymous volume
+==================
+
+Ø Volume created automatically by docker without a name.
+Ø There is no any meaningful name to the volume
+
+/bin/bash   - you overriding the default command of the image (CMD ["node", "server.js"]
+
+When bash exits --> container exists 
