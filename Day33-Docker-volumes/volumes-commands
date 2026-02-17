@@ -25,3 +25,28 @@
    66  ls
    67  exit
    68  history
+   72  docker run -d --name ipl -v /app -p 3000:3000 muralisocial123/ipl:latest
+   73  docker ps
+   74  docker volume ls
+   75  cd /var/lib/docker/volumes/
+   76  ls
+   77  cd 9b5d78530b4904fb02472217602820019a78e5cb23988f0bd4c4b96ee40dc065
+   78  ls
+   79  cd _data/
+   80  ls
+   81  touch demo sample web
+   82  ls
+   83  mkdir ipl
+   84  ls
+   85  docker ps
+   86  exit
+   87  docker rm -f ipl
+   88  docker ps -a
+   89  cd 9b5d78530b4904fb02472217602820019a78e5cb23988f0bd4c4b96ee40dc065
+   90  cd /var/lib/docker/volumes/
+   91  ls
+   92  cd 9b5d78530b4904fb02472217602820019a78e5cb23988f0bd4c4b96ee40dc065
+   93  ls
+   94  cd _data/
+   95  ls
+   96  history
